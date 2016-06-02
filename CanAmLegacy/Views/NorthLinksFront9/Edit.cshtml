@@ -1,0 +1,22 @@
+@model CanAmLegacy.Models.NorthLinksFront9
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>@Html.DisplayTextFor(model => model.CanPlayerName) vs. @Html.DisplayTextFor(model => model.UsaPlayerName)</h2>
+
+@using (Html.BeginForm()) {
+    @Html.ValidationSummary(true)
+
+    @Html.HiddenFor(model => model.Id)
+    @Html.Partial("_CreateOrEdit", Model)
+
+    <p>
+        <input type="submit" value="Save Changes" />
+    </p>
+
+}
+<div style="margin-left:20px">
+    @Html.ActionLink("< Back to North Links Front 9 List", "Index")
+</div>

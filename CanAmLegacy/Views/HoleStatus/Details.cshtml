@@ -1,0 +1,20 @@
+@model CanAmLegacy.Models.HoleStatus
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>HoleStatus</legend>
+
+    <div class="display-label">Status</div>
+    <div class="display-field">@Model.Status</div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+
+

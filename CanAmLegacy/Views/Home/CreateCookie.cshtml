@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Admin Setup";
+}
+
+<p>You should now be an admin</p>
+
+<script>
+    $(document).ready(function () {
+        if (Cookies.get('isAdmin') == null) {
+            var ref = document.referrer.toLowerCase();
+            // set cookie  
+            Cookies.set('isAdmin', ref, { expires: 200 });
+        }
+    });
+</script>

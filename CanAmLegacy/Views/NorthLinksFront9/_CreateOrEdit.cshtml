@@ -1,0 +1,189 @@
+@model CanAmLegacy.Models.NorthLinksFront9
+
+@* This partial view defines form fields that will appear when creating and editing entities *@
+
+<div data-role="content">
+    @*@if (User.IsInRole("admin"))
+    {*@
+        <div class="ui-grid-a adminOnly">
+            <div class="editor-label ui-block-a">
+                @Html.LabelFor(model => model.CanPlayerName)
+            </div>
+            <div class="editor-field ui-block-b">
+                @Html.EditorFor(model => model.CanPlayerName)
+                @Html.ValidationMessageFor(model => model.CanPlayerName)    
+            </div>
+
+            <div class="editor-label ui-block-a">
+                @Html.LabelFor(model => model.UsaPlayerName)
+            </div>
+            <div class="editor-field ui-block-b">
+                @Html.EditorFor(model => model.UsaPlayerName)
+                @Html.ValidationMessageFor(model => model.UsaPlayerName)    
+            </div>
+        </div>
+        
+        <div data-role="collapsible-set" data-theme="a" data-content-theme="">
+            <div data-role="collapsible" data-collapsed="true">
+                <h3>Match Details</h3>
+                <div class="ui-grid-a">
+                    <div class="editor-label ui-block-a">
+                        @Html.LabelFor(model => model.CanPoints)
+                    </div>
+                    <div class="editor-field ui-block-b">
+                        @Html.EditorFor(model => model.CanPoints)
+                        @Html.ValidationMessageFor(model => model.CanPoints)
+                    </div>
+
+                    <div class="editor-label ui-block-a">
+                        @Html.LabelFor(model => model.UsaPoints)
+                    </div>
+                    <div class="editor-field ui-block-b">
+                        @Html.EditorFor(model => model.UsaPoints)
+                        @Html.ValidationMessageFor(model => model.UsaPoints)
+                    </div>
+
+                    <div class="editor-label ui-block-a">
+                        @Html.LabelFor(model => model.MatchStatus)
+                    </div>
+                    <div class="editor-field ui-block-b">
+                        @Html.EditorFor(model => model.MatchStatus)
+                        @Html.ValidationMessageFor(model => model.MatchStatus)
+                    </div>
+
+                    <div class="editor-label ui-block-a">
+                        @Html.LabelFor(model => model.InProgress)
+                    </div>
+                    <div class="editor-field ui-block-b">
+                        @Html.EditorFor(model => model.InProgress)
+                        @Html.ValidationMessageFor(model => model.InProgress)
+                    </div>
+                </div>
+            </div>
+        </div>
+    @*}
+    else
+    {
+        @Html.HiddenFor(model => model.CanPlayerName) 
+        @Html.HiddenFor(model => model.UsaPlayerName)  
+        @Html.HiddenFor(model => model.CanPoints)   
+        @Html.HiddenFor(model => model.UsaPoints)  
+        @Html.HiddenFor(model => model.MatchStatus)  
+        @Html.HiddenFor(model => model.InProgress)  
+    }*@
+        
+    <div class="ui-grid-a">
+        <div class="editor-label ui-block-a">
+            <span>Hole1</span>
+        </div>
+        <div class="editor-field ui-block-b">
+            @Html.DropDownListFor(model => model.Hole1Id, ((IEnumerable<CanAmLegacy.Models.HoleStatus>)ViewBag.PossibleHole1).Select(option => new SelectListItem
+       {
+           Text = option.Status,
+           Value = option.Id.ToString(),
+           Selected = (Model != null) && (option.Id == Model.Hole1Id)
+       }), "Choose...")
+            @Html.ValidationMessageFor(model => model.Hole1Id)
+        </div>
+        <div class="editor-label ui-block-a">
+            <span>Hole2</span>
+        </div>
+        <div class="editor-field ui-block-b">
+            @Html.DropDownListFor(model => model.Hole2Id, ((IEnumerable<CanAmLegacy.Models.HoleStatus>)ViewBag.PossibleHole2).Select(option => new SelectListItem
+       {
+           Text = option.Status,
+           Value = option.Id.ToString(),
+           Selected = (Model != null) && (option.Id == Model.Hole2Id)
+       }), "Choose...")
+            @Html.ValidationMessageFor(model => model.Hole2Id)
+        </div>
+        <div class="editor-label ui-block-a">
+            <span>Hole3</span>
+        </div>
+        <div class="editor-field ui-block-b">
+            @Html.DropDownListFor(model => model.Hole3Id, ((IEnumerable<CanAmLegacy.Models.HoleStatus>)ViewBag.PossibleHole3).Select(option => new SelectListItem
+       {
+           Text = option.Status,
+           Value = option.Id.ToString(),
+           Selected = (Model != null) && (option.Id == Model.Hole3Id)
+       }), "Choose...")
+            @Html.ValidationMessageFor(model => model.Hole3Id)
+        </div>
+        <div class="editor-label ui-block-a">
+            <span>Hole4</span>
+        </div>
+        <div class="editor-field ui-block-b">
+            @Html.DropDownListFor(model => model.Hole4Id, ((IEnumerable<CanAmLegacy.Models.HoleStatus>)ViewBag.PossibleHole4).Select(option => new SelectListItem
+       {
+           Text = option.Status,
+           Value = option.Id.ToString(),
+           Selected = (Model != null) && (option.Id == Model.Hole4Id)
+       }), "Choose...")
+            @Html.ValidationMessageFor(model => model.Hole4Id)
+        </div>
+        <div class="editor-label ui-block-a">
+           <span>Hole5</span>
+        </div>
+        <div class="editor-field ui-block-b">
+            @Html.DropDownListFor(model => model.Hole5Id, ((IEnumerable<CanAmLegacy.Models.HoleStatus>)ViewBag.PossibleHole5).Select(option => new SelectListItem
+       {
+           Text = option.Status,
+           Value = option.Id.ToString(),
+           Selected = (Model != null) && (option.Id == Model.Hole5Id)
+       }), "Choose...")
+            @Html.ValidationMessageFor(model => model.Hole5Id)
+        </div>
+        <div class="editor-label ui-block-a">
+           <span>Hole6</span>
+        </div>
+        <div class="editor-field ui-block-b">
+            @Html.DropDownListFor(model => model.Hole6Id, ((IEnumerable<CanAmLegacy.Models.HoleStatus>)ViewBag.PossibleHole6).Select(option => new SelectListItem
+       {
+           Text = option.Status,
+           Value = option.Id.ToString(),
+           Selected = (Model != null) && (option.Id == Model.Hole6Id)
+       }), "Choose...")
+            @Html.ValidationMessageFor(model => model.Hole6Id)
+        </div>
+        <div class="editor-label ui-block-a">
+            <span>Hole7</span>
+        </div>
+        <div class="editor-field ui-block-b">
+            @Html.DropDownListFor(model => model.Hole7Id, ((IEnumerable<CanAmLegacy.Models.HoleStatus>)ViewBag.PossibleHole7).Select(option => new SelectListItem
+       {
+           Text = option.Status,
+           Value = option.Id.ToString(),
+           Selected = (Model != null) && (option.Id == Model.Hole7Id)
+       }), "Choose...")
+            @Html.ValidationMessageFor(model => model.Hole7Id)
+        </div>
+        <div class="editor-label ui-block-a">
+            <span>Hole8</span>
+        </div>
+        <div class="editor-field ui-block-b">
+            @Html.DropDownListFor(model => model.Hole8Id, ((IEnumerable<CanAmLegacy.Models.HoleStatus>)ViewBag.PossibleHole8).Select(option => new SelectListItem
+       {
+           Text = option.Status,
+           Value = option.Id.ToString(),
+           Selected = (Model != null) && (option.Id == Model.Hole8Id)
+       }), "Choose...")
+            @Html.ValidationMessageFor(model => model.Hole8Id)
+        </div>
+        <div class="editor-label ui-block-a">
+           <span>Hole9</span>
+        </div>
+        <div class="editor-field ui-block-b">
+            @Html.DropDownListFor(model => model.Hole9Id, ((IEnumerable<CanAmLegacy.Models.HoleStatus>)ViewBag.PossibleHole9).Select(option => new SelectListItem
+       {
+           Text = option.Status,
+           Value = option.Id.ToString(),
+           Selected = (Model != null) && (option.Id == Model.Hole9Id)
+       }), "Choose...")
+            @Html.ValidationMessageFor(model => model.Hole9Id)
+        </div>
+    </div>
+</div>
+
+
+
+

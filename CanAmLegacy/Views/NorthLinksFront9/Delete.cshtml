@@ -1,0 +1,21 @@
+@model CanAmLegacy.Models.NorthLinksFront9
+
+@{
+    ViewBag.Title = "Delete Matchup";
+}
+
+<h2>Are you sure you want to delete this matchup?</h2>
+
+<p><strong>@Model.CanPlayerName vs. @Model.UsaPlayerName</strong></p>
+<p>CanPoints - @Model.CanPoints</p>
+<p>UsaPoints - @Model.UsaPoints</p>
+<p>InProgress - @Model.InProgress</p>
+
+@using (Html.BeginForm()) {
+    <p>
+        <input type="submit" value="Delete" />
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+}
+
+

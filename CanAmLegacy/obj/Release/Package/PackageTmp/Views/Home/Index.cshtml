@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "CanAmCup.com";
+}
+
+
+<ul data-role="listview" data-divider-theme="b" data-inset="true" class="homepage">
+    <li data-role="list-divider" role="heading">Matchups</li>
+    <li>@Html.ActionLink("North Links Front 9", "Index", "NorthLinksFront9")</li>
+    <li>@Html.ActionLink("North Links Back 9", "Index", "NorthLinksBack9")</li>
+    <li>@Html.ActionLink("Terrace View", "Index", "TerraceView18")</li>
+    @*<li>@Html.Partial("_LogOnPartial")</li>*@
+    @if(User.IsInRole("Admin"))
+    {
+        <li data-role="list-divider" role="heading">Setup</li>
+        <li>@Html.ActionLink("Hole Status", "Index", "HoleStatus")</li>
+    }
+</ul>
+

@@ -1,0 +1,56 @@
+@model CanAmLegacy.Models.NorthLinksBack9
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>NorthLinksBack9</legend>
+
+    <div class="display-label">CanPlayerName</div>
+    <div class="display-field">@Model.CanPlayerName</div>
+
+    <div class="display-label">UsaPlayerName</div>
+    <div class="display-field">@Model.UsaPlayerName</div>
+
+    <div class="display-label">MatchStatus</div>
+    <div class="display-field">@Model.MatchStatus</div>
+
+    <div class="display-label">InProgress</div>
+    <div class="display-field">@Model.InProgress</div>
+
+    <div class="display-label">Hole1</div>
+    <div class="display-field">@Html.DisplayTextFor(_ => Model.Hole1.Status)</div>
+
+    <div class="display-label">Hole2</div>
+    <div class="display-field">@Html.DisplayTextFor(_ => Model.Hole2.Status)</div>
+
+    <div class="display-label">Hole3</div>
+    <div class="display-field">@Html.DisplayTextFor(_ => Model.Hole3.Status)</div>
+
+    <div class="display-label">Hole4</div>
+    <div class="display-field">@Html.DisplayTextFor(_ => Model.Hole4.Status)</div>
+
+    <div class="display-label">Hole5</div>
+    <div class="display-field">@Html.DisplayTextFor(_ => Model.Hole5.Status)</div>
+
+    <div class="display-label">Hole6</div>
+    <div class="display-field">@Html.DisplayTextFor(_ => Model.Hole6.Status)</div>
+
+    <div class="display-label">Hole7</div>
+    <div class="display-field">@Html.DisplayTextFor(_ => Model.Hole7.Status)</div>
+
+    <div class="display-label">Hole8</div>
+    <div class="display-field">@Html.DisplayTextFor(_ => Model.Hole8.Status)</div>
+
+    <div class="display-label">Hole9</div>
+    <div class="display-field">@Html.DisplayTextFor(_ => Model.Hole9.Status)</div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
+
+

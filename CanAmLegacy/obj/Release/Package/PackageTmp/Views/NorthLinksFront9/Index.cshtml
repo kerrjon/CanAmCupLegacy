@@ -1,0 +1,40 @@
+@model IEnumerable<CanAmLegacy.Models.NorthLinksFront9>
+
+@{
+    ViewBag.Title = "NorthLinks Front 9";
+}
+
+<ul data-role="listview" data-divider-theme="b" data-inset="true">
+    
+    <li data-role="list-divider" role="heading">North Links Front 9</li>
+    @foreach (var item in Model)
+    {
+        <li>
+            <a href="NorthLinksFront9/Edit/@item.Id" class="matchupLink" style="padding-top:0;">
+                <div class="ui-grid-b">
+                    <div class="ui-block-a"><span class="canPlayers">@item.CanPlayerName</span></div>
+                    <div class="ui-block-b"><span class="matchStatus">@item.MatchStatus</span></div>
+                    <div class="ui-block-c"><span class="usaPlayers">@item.UsaPlayerName</span></div>
+                </div>
+            </a>
+        </li>
+    }
+
+    @*@if (User.IsInRole("Admin"))
+    {*@
+    
+
+        <li class="adminOnly" data-role="list-divider" role="heading">Create</li>
+        <li class="adminOnly">@Html.ActionLink("Create New", "Create")</li>
+
+        <li class="adminOnly"data-role="list-divider" role="heading">Delete Matchups</li>
+
+        @foreach (var item in Model)
+        {
+            var linkText = String.Format("{0} vs. {1}", item.CanPlayerName, item.UsaPlayerName);
+            <li class="adminOnly">@Html.ActionLink(linkText, "Delete", new { id = item.Id })</li>
+        }
+    
+    @*}*@
+</ul>
+

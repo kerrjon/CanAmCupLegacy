@@ -1,0 +1,1399 @@
+/** auto generated css file do not edit by hand */
+/** nhl/css/mobile/mobile.css */
+body
+{
+    font: normal 12px Helvetica;
+    color: #333;
+    background-color: #FFF;
+    padding: 0;
+    margin: 0;
+    -webkit-text-size-adjust: none;
+}
+a:link
+{
+    color: #333;
+    text-decoration: none;
+}
+a:visited
+{
+    color: #333;
+    text-decoration: none;
+}
+a:hover
+{
+    color: #0183da;
+    text-decoration: none;
+}
+h3
+{
+    color: #aaa;
+}
+#btmNav a:link
+{
+    color: #fff;
+}
+#btmNav a:visited
+{
+    color: #fff;
+}
+#btmNav a:hover
+{
+    color: #fff;
+}
+#btmNav td:hover
+{
+    background-image: none;
+    background-color: #0183da;
+}
+#msthd
+{
+    background: #000 url('http://cdn.nhl.com/nhl/images/mobile/m_toolbar.png') repeat-x top left;
+    height: 45px;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    border-top: #555 solid 1px;
+    border-bottom: #000 solid 1px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 65000;
+    width: 100%;
+    -webkit-box-shadow: 0 2px 3px #111;
+}
+#topBannerAd
+{
+    margin-top: 47px;
+}
+#topAd
+{
+    background-color: #000;
+    padding: 2px 0 2px 0;
+    text-align: center;
+}
+#signIn a
+{
+    color: #fff;
+    text-decoration: none;
+}
+ul.heading, ul.category
+{
+    background-color: #666;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0.55,#666),color-stop(0.45,#959595));
+    background-image: -moz-linear-gradient(bottom,#666 55%,#959595 45%);
+    color: #fff;
+    font: bold 14px Helvetica;
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+ul.category
+{
+    background-color: #b5b5b5;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0.55,#b5b5b5),color-stop(0.45,#d4d4d4));
+    background-image: -moz-linear-gradient(bottom,#b5b5b5 55%,#d4d4d4 45%);
+}
+ul.heading li, ul.category li
+{
+    color: #fff;
+    text-shadow: rgba(0,0,0,0.60) 1px 1px 2px;
+    list-style-type: none;
+    overflow: hidden;
+    padding: 5px;
+    border-bottom: 1px solid #999;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+ul.category li
+{
+    color: #444;
+    border-bottom: 1px solid #999;
+    text-shadow: rgba(0,0,0,0.3) 1px 1px 1px;
+}
+ul.heading li a, ul.category li a
+{
+    color: #fff;
+}
+ul.menuList, ul.headlines
+{
+    font: bold 18px Helvetica;
+    margin: 0;
+    padding: 0;
+}
+ul.heading td, ul.category td
+{
+    border: 0;
+}
+ul.menuList
+{
+    background-color: #333;
+    border-width: 0 0 1px;
+    color: #AAA;
+}
+ul.headlines
+{
+    font-size: 16px;
+}
+ul.menuList li
+{
+    border-style: solid;
+    list-style-type: none;
+    overflow: hidden;
+    border-width: 1px 0;
+}
+ul.headlines li
+{
+    border-bottom: 1px solid #ddd;
+    color: #333;
+    padding: 10px 25px 10px 6px;
+}
+ul.menuList li
+{
+    border-top: 1px solid #353535;
+    border-bottom: 1px solid #020202;
+    color: #666;
+    padding: 0 0 0 10px;
+}
+ul.menuList li.arrow:nth-child(2n+1)
+{
+    border-top: 1px solid #454545;
+    border-bottom: 1px solid #020202;
+    background-color: #222;
+}
+ul.menuList li.arrow, ul.headlines li.arrow
+{
+    background: url("http://cdn.nhl.com/nhl/images/mobile/gray_chevron.png") no-repeat right center;
+}
+ul.menuList li.arrow:hover, ul.headlines li.arrow:hover, ul.menuList li.arrow:focus, ul.headlines li.arrow:focus
+{
+    background: url("http://cdn.nhl.com/nhl/images/mobile/white_chevron.png") no-repeat right center;
+    background-color: #015fe6;
+}
+ul.menuList li.arrow a
+{
+    color: #fff;
+    display: block;
+    line-height: 40px;
+}
+ul.headlines li.arrow a
+{
+    color: #333;
+    display: block;
+}
+ul.menuList li.arrow:hover a, ul.headlines li.arrow:hover a
+{
+    color: #fff;
+}
+ul.headlines span.dateByLine
+{
+    font: 12px Helvetica;
+}
+a.reload, a.currentReload
+{
+    float: right;
+    color: white;
+    border-right: 1px solid white;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+a.currentReloadOff, a.reloadOff
+{
+    float: right;
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+a.currentReload, a.currentReloadOff
+{
+    font-weight: bold;
+}
+.reloadTimerBar
+{
+    width: 100%;
+    height: 17px;
+    background-color: #000;
+    padding-top: 5px;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#333),to(#000));
+    background-image: -moz-linear-gradient(bottom,#000,#333);
+}
+table
+{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+table td
+{
+    padding: 6px 2px 6px 5px;
+    border-bottom: 1px solid #ccc;
+}
+table .header tr
+{
+    background-color: #555;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+}
+table .header td
+{
+    background-color: #555;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+}
+table.dateNavi
+{
+    color: #fff;
+    font: bold 16px Helvetica;
+    width: 100%;
+    background-color: #000;
+    padding: 0 6px 0 6px;
+}
+table.dateNavi td
+{
+    width: 33%;
+    border: 0;
+    padding: 6px 0 6px 0;
+}
+table.dateNavi a
+{
+    color: #0183da;
+    font-size: 13px;
+}
+table.gmDisplay
+{
+    font: bold 15px Helvetica;
+    width: 100%;
+    border-bottom: 1px solid #999;
+    border-top: 1px solid #ececec;
+    padding: 6px 0 6px 0;
+}
+table.finalState
+{
+    background-color: #ececec;
+    border-bottom: 1px solid #999;
+    border-top: 1px solid #fff;
+}
+table.specialEvent
+{
+    background-color: #BDEDFE;
+    border-bottom: 1px solid #999;
+    border-top: 1px solid #fff;
+}
+table.gmDisplay td
+{
+    border: 0;
+    padding: 3px;
+}
+table.gmDisplay .tvInfo, table.gmDisplay .seriesStatus
+{
+    color: #777;
+    font-size: 11px;
+    text-transform: uppercase;
+}
+table.gmDisplay .gameDate
+{
+    text-transform: uppercase;
+    color: #444;
+}
+table.gmDisplay .preseasonStatus
+{
+    color: #999;
+    font-size: 9px;
+    text-transform: uppercase;
+}
+.winner, .final, .final a, .emp
+{
+    color: #0183da;
+}
+.gcLink
+{
+    color: #0183da;
+    font-size: 8pt;
+    float: right;
+}
+.empBrdr
+{
+    border: 1px solid #0183da;
+}
+.progress
+{
+    color: #c00;
+}
+.noGames
+{
+    font: bold 15px Helvetica;
+    text-align: center;
+    padding: 10px 0;
+}
+.galleryThumbnail
+{
+    border: 1px solid #333;
+    float: left;
+    margin: 0 5px 10px 0;
+}
+.strong
+{
+    font-weight: bold;
+}
+#teamHdr
+{
+    margin: 6px 0 6px 0;
+}
+#teamHdr td
+{
+    border-bottom: 0;
+}
+#teamHdr td.logo
+{
+    width: 60px;
+}
+#teamHdr .tmName
+{
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+}
+#teamHdr .cnfDiv
+{
+    color: #666;
+    font-size: 14px;
+    font-weight: bold;
+}
+#teamHdr .records
+{
+    color: #999;
+    font-size: 12px;
+    font-weight: bold;
+}
+#topBannerAd
+{
+    background-color: #000;
+    text-align: center;
+}
+#contentItem
+{
+    float: none;
+}
+#contentItem h1, #contentItem h2
+{
+    clear: both;
+    font-size: 18px;
+    color: #333;
+    margin: 10px 5px 5px 5px;
+    font-weight: bold;
+}
+#contentItem h2
+{
+    font-size: 16px;
+    color: #444;
+    margin: 2px 5px;
+}
+#contentItem h6
+{
+    font-size: 12px;
+    color: #666;
+    margin: 2px 5px;
+}
+#contentItem .bodyText
+{
+    padding: 10px 5px 5px 5px;
+    font-size: 15px;
+    background-color: #FFF;
+}
+#contentItem .bodyText a:link, #contentItem .bodyText a:visited
+{
+    text-decoration: underline;
+}
+.pagination
+{
+    width: 100%;
+    padding: 15px 0;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.pagination a
+{
+    color: #0183da;
+}
+#datepickerPage table.calTable
+{
+    border: none;
+    font-size: 16px;
+    text-align: center;
+}
+#datepickerPage table.calTable tr
+{
+    width: 100%;
+    margin-bottom: 2px;
+}
+#datepickerPage table.calTable tr.hdr
+{
+    background-color: #999;
+    color: #fff;
+    font-weight: bold;
+}
+#datepickerPage table.calTable tr td
+{
+    margin-right: 5px;
+    border: solid 1px #000;
+}
+#datepickerPage table.calTable tr td.empty
+{
+    background-color: #eee;
+    border-color: #666;
+}
+#datepickerPage table.calTable tr td.today
+{
+    background-color: #eee;
+    border-color: #0183da;
+}
+#datepickerPage table.calTable .day
+{
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+    display: block;
+}
+#datepickerPage table.calTable tr td.home
+{
+    background-color: #ccc;
+    border-color: #666;
+}
+#datepickerPage table.calTable tr td.away
+{
+    background-color: #666;
+    border-color: #666;
+}
+table.tabs
+{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    padding-top: 6px;
+}
+table.tabs td
+{
+    padding: 4px 0;
+    -moz-border-radius-topleft: 4px;
+    -webkit-border-top-left-radius: 4px;
+    -moz-border-radius-topright: 4px;
+    -webkit-border-top-right-radius: 4px;
+}
+table.tabs .tabSpacer
+{
+    width: 3px;
+    border-bottom: solid 1px #000;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+table.tabs .subnavOn, table.tabs .subnavOff
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #000;
+    vertical-align: middle;
+    text-align: center;
+}
+table.tabs .subnavOn
+{
+    background-color: #fff;
+    color: #000;
+    border-width: 1px 1px 0 1px;
+    margin-top: 0;
+    position: relative;
+    top: 1px;
+}
+table.tabs .subnavOff
+{
+    background-color: #666;
+}
+table.tabs .subnavOn.first
+{
+    border-left-width: 0;
+}
+table.tabs .subnavOn.last
+{
+    border-right-width: 0;
+}
+table.tabs .subnavOff a
+{
+    color: #fff;
+}
+table.tabs .tabsRow
+{
+    width: 100%;
+    border: none;
+}
+table.sbDisplay
+{
+    width: 100%;
+    margin: 4px 0 0 0;
+}
+table.sbDisplay td
+{
+    text-align: center;
+    border-right: 1px solid #999;
+}
+table.sbDisplay td.even
+{
+    background-color: #f1f1f1;
+}
+table.sbDisplay td:last-of-type
+{
+    border-right: none;
+}
+table.standingsTableData tr:last-of-type td
+{
+    border-bottom: none;
+}
+#featuredItem
+{
+    background-color: #010101;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#010101),to(#333));
+    background-image: -moz-linear-gradient(bottom,#333,#010101);
+}
+#featuredItem a
+{
+    color: #ccc;
+}
+#featuredItem h1
+{
+    clear: both;
+    font: bold 18px Helvetica;
+    color: #fff;
+    margin: 4px 4px 0 4px;
+}
+#featuredItem h1 a
+{
+    color: #fff;
+}
+#featuredItem .photo
+{
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+    overflow: hidden;
+}
+#featuredItem .photo img
+{
+    border: 1px solid #000;
+}
+#featuredItem .teaser
+{
+    clear: both;
+    font: normal 15px Helvetica;
+    color: #ccc;
+    padding: 4px 4px 8px 4px;
+}
+#galleryItem
+{
+    background-color: #010101;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#010101),to(#333));
+    background-image: -moz-linear-gradient(bottom,#333,#010101);
+}
+#galleryItem .photo
+{
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+    overflow: hidden;
+}
+#galleryItem .photo img
+{
+    border: 1px solid #000;
+}
+#footer
+{
+    background-color: #222;
+    font-size: 13px;
+    color: #666;
+    text-align: center;
+    padding: 12px;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#000),to(#333));
+    background-image: -moz-linear-gradient(bottom,#333,#000);
+}
+#vrznRdStripe
+{
+    background-color: #c00;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+#footer a, #vrznRdStripe a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.help, .red
+{
+    color: #C00;
+}
+#newsTools
+{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+#newsTools td
+{
+    padding: 0;
+    border: 0;
+}
+#newsTools td a
+{
+    color: #0183da;
+}
+a.menuButton, #newsTools td a.menuButton
+{
+    float: left;
+    color: #fff;
+    background: transparent url('http://cdn.nhl.com/nhl/images/mobile/menuBtnRightEdge.png') no-repeat scroll top right;
+    font: bold 16px helvetica;
+    height: 29px;
+    padding-right: 4px;
+}
+a.menuButton span
+{
+    display: block;
+    height: 22px;
+    line-height: 20px;
+    background: transparent url('http://cdn.nhl.com/nhl/images/mobile/menuBtn.png') no-repeat;
+    padding: 5px 4px 2px 8px;
+}
+a.smallBlackButton
+{
+    float: left;
+    background: transparent url('http://cdn.nhl.com/images/default/blackButtonRightEdgeSm.gif') no-repeat scroll top right;
+    font: bold 9px verdana;
+    height: 15px;
+    padding: 0 3px 0 0;
+    color: #fff;
+}
+a.smallBlackButton span
+{
+    display: block;
+    height: 13px;
+    line-height: 10px;
+    color: #fff;
+    background: transparent url('http://cdn.nhl.com/images/default/blackButtonLeftSm.gif') no-repeat;
+    padding: 2px 4px 0 8px;
+}
+a.smallGrayButton
+{
+    float: left;
+    background: transparent url('http://cdn.nhl.com/images/default/btn80Lite_rt.gif') no-repeat scroll top right;
+    font: bold 9px verdana;
+    height: 15px;
+    padding: 0 3px 0 0;
+    color: #fff;
+}
+a.smallGrayButton span
+{
+    display: block;
+    height: 13px;
+    line-height: 10px;
+    color: #fff;
+    background: transparent url('http://cdn.nhl.com/images/default/btn80Lite.gif') no-repeat;
+    padding: 2px 4px 0 8px;
+}
+img
+{
+    border: none;
+    vertical-align: top;
+}
+.bold
+{
+    font-weight: bold;
+}
+.center
+{
+    text-align: center;
+}
+.underline
+{
+    text-decoration: underline;
+}
+.smheader
+{
+    background-color: #CCC;
+    font-weight: bold;
+    color: #000;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    padding: 3px;
+}
+.smlheader
+{
+    background-color: #FFF;
+    font-weight: bold;
+    color: #000;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #999;
+    padding: 3px;
+}
+.teambord
+{
+    border-bottom: 1px solid #999;
+}
+.teambordodd
+{
+    border-bottom: 1px solid #999;
+}
+.phtxt
+{
+    color: #000;
+    font-weight: bold;
+    text-decoration: none;
+}
+.teamsel
+{
+    border-bottom: 1px solid #999;
+}
+.teamborder
+{
+    border-top: 1px solid #999;
+    vertical-align: middle;
+}
+.btp
+{
+    border: 1px solid #999;
+}
+.right
+{
+    text-align: right;
+}
+.left
+{
+    text-align: left;
+}
+.center
+{
+    text-align: center;
+}
+.top
+{
+    vertical-align: top;
+}
+.middle
+{
+    vertical-align: middle;
+}
+.bottom
+{
+    vertical-align: bottom;
+}
+.date
+{
+    background-color: #0183da;
+    border-top: 1px solid #0183da;
+    border-bottom: 1px solid #0183da;
+    border-left: 4px solid #0183da;
+    color: #FFF;
+    font-weight: bold;
+}
+.seltitle
+{
+    font-weight: bold;
+}
+.schselectlg
+{
+    vertical-align: middle;
+}
+.goBtnlg
+{
+    vertical-align: middle;
+}
+.latestgames
+{
+    border: 5px solid #FFF;
+    font-weight: bold;
+}
+.helpfaq
+{
+    color: #000;
+    border-top: 5px solid #FFF;
+    border-left: 5px solid #FFF;
+    border-bottom: 10px solid #FFF;
+}
+.helpfaq ul
+{
+    list-style: disc;
+    margin-left: -15px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.helpfaq ol
+{
+    margin-left: 0;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.helpfaq li
+{
+    margin: 0;
+}
+.helptitle
+{
+    font-weight: bold;
+    font-size: medium;
+}
+.fmore
+{
+    color: #0183da;
+    font-weight: bold;
+    text-decoration: none;
+}
+.bluelink
+{
+    color: #0183da;
+    font-weight: normal;
+    text-decoration: none;
+}
+.starname
+{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.tmconf
+{
+    text-align: center;
+    border-top: 5px solid #FFF;
+    border-bottom: 5px solid #FFF;
+}
+.tmbrd
+{
+    border-top: 1px solid #999;
+    vertical-align: middle;
+}
+.tmname
+{
+    border-left: 5px solid #FFF;
+    border-top: 3px solid #FFF;
+    border-bottom: 3px solid #FFF;
+}
+.tmnamelink, .tmnamelink:hover
+{
+    text-decoration: underline;
+    color: #000;
+}
+.tmconflink, .tmconflink:hover
+{
+    color: #0077CD;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.tmconflinkc
+{
+    color: #0077CD;
+    font-weight: bold;
+}
+.tmconfd
+{
+    border-top: 5px solid #FFF;
+    border-bottom: 5px solid #FFF;
+    text-align: right;
+}
+.teamsitesm, .teamsitesm:hover
+{
+    text-decoration: underline;
+    color: #000;
+}
+.teamsite, .teamsite:hover
+{
+    text-decoration: underline;
+    color: #FFF;
+}
+.tmheader
+{
+    background-color: #999;
+    font-weight: bold;
+    color: #FFF;
+    border-top: 1px solid #999;
+    border-bottom: 1px solid #999;
+    padding: 3px;
+}
+.blcolor
+{
+    color: #0183da;
+    font-weight: bold;
+}
+.alertshead
+{
+    font-weight: bold;
+    text-decoration: underline;
+    border-left: 5px solid #FFF;
+    border-top: 5px solid #FFF;
+    border-bottom: 5px solid #FFF;
+}
+.alertsdata
+{
+    border-bottom: 5px solid #FFF;
+    border-left: 5px solid #FFF;
+}
+.blkcolor
+{
+    color: #000;
+    font-weight: bold;
+}
+.trdLink
+{
+    color: #0183DA;
+    font-weight: bold;
+}
+.tradeCont
+{
+    border: 5px solid #fff;
+}
+.trTop
+{
+    border-bottom: 8px solid #fff;
+}
+.trHead
+{
+    border-bottom: 8px solid #fff;
+    border-top: 8px solid #fff;
+}
+.trTerms
+{
+    border-bottom: 3px solid #fff;
+    border-top: 8px solid #fff;
+}
+.trSubHead
+{
+    background: #A50000;
+    border-width: 3px 0 3px 6px;
+    border-style: solid;
+    border-color: #A50000;
+    color: #fff;
+    font-weight: bold;
+}
+.toppad
+{
+    padding-top: 5px;
+}
+.navOn
+{
+    height: 28px;
+    padding-top: 5px;
+}
+.navOff
+{
+    height: 28px;
+    padding-top: 5px;
+}
+.secHeader
+{
+    padding-top: 5px;
+    height: 25px;
+}
+.topSelect
+{
+    width: 75%;
+    vertical-align: middle;
+    font-size: small;
+}
+.goBtn
+{
+    vertical-align: middle;
+    padding-left: 5px;
+}
+.teamJewel, .teamJewelMed
+{
+    background-image: url("http://cdn.nhle.com/nhl/images/mdLogoSprite.png");
+    background-size: 60px 930px;
+    height: 30px;
+    width: 60px;
+    margin-right: 3px;
+    float: left;
+}
+#emailMe, #emailButton
+{
+    cursor: pointer;
+}
+#newsTools td
+{
+    padding: 4px;
+}
+#shareDiv
+{
+    display: none;
+    height: 50px:width:50px;
+    border: solid 1px #ccc;
+    background-color: #eee;
+}
+.formInputLabel
+{
+    width: 3%;
+    text-align: left;
+}
+.formInputText
+{
+    width: 80%;
+    text-align: left;
+}
+#emailButton
+{
+    text-align: center;
+}
+a.btn
+{
+    text-decoration: none;
+    outline: 0 none;
+    color: #fff;
+}
+.btn
+{
+    padding: 1px 8px;
+    margin: 4px 4px 0 0;
+    display: inline;
+    background: -moz-linear-gradient(top,#c2c2c2 50%,#9d9d9d 50%);
+    background-image: -webkit-gradient(linear,0% 0,0% 100%,color-stop(0.5,#c2c2c2),color-stop(0.5,#9d9d9d));
+    border: none;
+    color: #333;
+    font-weight: bold;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    font: bold 9px verdana;
+    text-transform: uppercase;
+    white-space: nowrap;
+    line-height: 15px;
+}
+a.btn:hover, a.btn.black:hover, a.btn.active, span.btn.active
+{
+    background: -moz-linear-gradient(top,#44a0ed 50%,#037dd2 50%);
+    background-image: -webkit-gradient(linear,0% 0,0% 100%,color-stop(0.5,#44a0ed),color-stop(0.5,#037dd2));
+    color: #fff !important;
+}
+.btn.black
+{
+    background: -moz-linear-gradient(top,#666 50%,#333 50%);
+    background-image: -webkit-gradient(linear,0% 0,0% 100%,color-stop(0.5,#666),color-stop(0.5,#333));
+    color: #fff;
+}
+table.teamRoundup
+{
+    background-color: #000;
+}
+table.teamRoundup td
+{
+    border: none;
+    color: #ececec;
+}
+table.summary
+{
+    color: #ececec;
+    border: 2px solid #292929;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color: #000;
+}
+table.summary td
+{
+    border: 0;
+    padding: 2px;
+    text-align: center;
+}
+table.summary tr.sbData
+{
+    border: 1px solid #444;
+    font: 14px;
+    font-weight: bold;
+}
+.playoffSeriesHeader
+{
+    float: left;
+    background: #595959;
+    width: 100%;
+}
+.bottomSeedTeamInfo
+{
+    float: left;
+    width: 120px;
+}
+.topSeedTeamInfo
+{
+    float: right;
+    width: 120px;
+}
+.playoffSeriesHeader .matchup
+{
+    float: left;
+    background-color: #FFF;
+    background: url('http://cdn.nhl.com/nhl/en/v3/images/playoffs/playoffSeriesStatusBg.gif') repeat 0 0;
+    border-bottom: 1px solid #5c5c5c;
+    width: 100%;
+}
+.playoffSeriesHeader .playoffSeriesBackground
+{
+    width: 100%;
+    padding: 0;
+}
+.playoffSeriesHeader .seriesScore
+{
+    color: #fff;
+    font-size: 12px;
+    line-height: 12px;
+}
+.playoffSeriesHeader .indicator
+{
+    float: left;
+    width: 12px;
+    height: 48px;
+    background-color: #000;
+    border: 1px solid #5c5c5c;
+    border-width: 0 1px;
+}
+.topSeedTeamInfo .indicator
+{
+    float: right;
+}
+.playoffSeriesHeader .indicator div
+{
+    float: left;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+}
+.playoffSeriesHeader .indicator .tbd
+{
+    background-color: #3c3c3c;
+}
+.playoffSeriesHeader .seed
+{
+    float: left;
+    width: 20px;
+    height: 100%;
+    font: bold 12px arial;
+    color: #808080;
+    text-align: center;
+    padding-top: 20px;
+}
+.topSeedTeamInfo .seed
+{
+    float: right;
+}
+.playoffSeriesHeader .seed span
+{
+    font: bold 12px arial;
+}
+.playoffSeriesHeader .logo
+{
+    float: left;
+    padding: 2px;
+}
+.topSeedTeamInfo .logo
+{
+    float: right;
+}
+.playoffSeriesHeader .teamName
+{
+    float: left;
+    height: 100%;
+    text-transform: uppercase;
+    text-align: center;
+    width: 105px;
+}
+.topSeedTeamInfo .teamName
+{
+    float: right;
+}
+.playoffSeriesHeader .city
+{
+    color: #fff;
+    font: normal 10px/10px arial;
+}
+.playoffSeriesHeader .seriesStatus
+{
+    background: url('http://cdn.nhl.com/nhl/images/mobile/playoffs/mobile_playoffSeriesStatus.png') no-repeat;
+    text-align: center;
+    width: 100px;
+    height: 27px;
+    font: normal 8px arial;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 0 auto;
+}
+.win, .tbd
+{
+    -moz-box-shadow: 0 2px 2px 0 #222 inset;
+    -webkit-box-shadow: 0 2px 2px 0 #222 inset;
+    box-shadow: 0 2px 2px 0 #222 inset;
+}
+.playoffBanner
+{
+    background: url('http://cdn.nhl.com/nhl/images/mobile/playoffs/stanley_cup_banner.png') no-repeat 0 0;
+    width: 315px;
+    height: 23px;
+    margin: 0 auto;
+}
+.logoImg
+{
+    background: url('http://cdn.nhl.com/nhl/images/mobile/mstHdSheild.png') no-repeat -1px 0;
+    width: 90px;
+    height: 45px;
+    float: left;
+}
+.ciscoLogo
+{
+    background: url('http://cdn.nhl.com/nhl/images/mobile/ciscoLogo.png') no-repeat 0 0;
+    float: right;
+    width: 110px;
+    height: 38px;
+}
+#indBUF .win, #indBOS .win, #indFLA .win
+{
+    background-color: #FC3;
+}
+#indNYR .win, #indTOR .win, #indSTL .win, #indCLB .win, #indTBL .win, #indNSH .win, #indEDM .win
+{
+    background-color: #069;
+}
+#indCAR .win, #indMTL .win, #indOTT .win, #indCGY .win, #indDET .win, #indWSH .win, #indCHI .win, #indNJD .win
+{
+    background-color: #C33;
+}
+#indPHI .win, #indNYI .win
+{
+    background-color: #FF7F36;
+}
+#indPIT .win
+{
+    background-color: #EADCAE;
+}
+#indATL .win
+{
+    background-color: #99B6DD;
+}
+#indCOL .win
+{
+    background-color: #903;
+}
+#indANA .win
+{
+    background-color: #E6C66F;
+}
+#indVAN .win, #indMIN .win, #indDAL .win
+{
+    background-color: #096;
+}
+#indLAK .win
+{
+    background-color: #669;
+}
+#indPHX .win
+{
+    background-color: #903;
+}
+#indSJS .win
+{
+    background-color: #066;
+}
+#indNJD .win
+{
+    background-color: #C00;
+}
+#indNYR .win
+{
+    background-color: #06C;
+}
+#gcScoreboard
+{
+    background-color: #000;
+    color: #ececec;
+    padding: 5px 5px 0 5px;
+    margin: 0;
+}
+#gcScoreboard td
+{
+    border: 0;
+    padding: 2px;
+    text-align: center;
+}
+#gcScoreboard .gameStatus
+{
+    color: #FC6;
+    font-size: 14px;
+    padding: 5px;
+}
+#gcScoreboard .score.winner
+{
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#022741),to(#0865aa));
+    background-image: -moz-linear-gradient(bottom,#0865aa 39%,#022741 70%);
+}
+#gcScoreboard .score
+{
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#111),to(#363636));
+    background-image: -moz-linear-gradient(center bottom,#363636 39%,#111 70%);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFF;
+    font-size: 27px;
+    height: 28px;
+    line-height: 28px;
+    margin-bottom: 16px;
+    text-align: center;
+    width: 28px;
+    border: 1px solid #292929;
+}
+#gcHeader
+{
+    border: 2px solid #292929;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#gcHeader tr.sbData
+{
+    border: 1px solid #444;
+}
+#gcHeader td.sbStat
+{
+    border-top: 1px solid #555;
+    border-bottom: 1px solid #555;
+    font-weight: bold;
+    background-color: #222;
+    font-size: 10px;
+    padding: 5px;
+}
+#playoffItem
+{
+    float: left;
+    width: 100%;
+    background-color: #010101;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#010101),to(#333));
+    background-image: -moz-linear-gradient(bottom,#333,#010101);
+}
+#playoffItem img
+{
+    border: 2px solid #666;
+}
+#playoffItem .video
+{
+    float: left;
+    padding: 15px 10px;
+    overflow: hidden;
+}
+#playoffItem .videoHeadline
+{
+    font: normal 16px Helvetica;
+    padding-top: 15px;
+    text-align: left;
+    color: #ccc;
+}
+#playoffItem .videoDesc
+{
+    text-align: left;
+    font: normal 12px Helvetica;
+    color: #ccc;
+    padding: 4px 4px 8px 4px;
+}

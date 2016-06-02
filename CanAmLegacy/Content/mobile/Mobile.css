@@ -1,0 +1,148 @@
+﻿.ui-body-c, .ui-overlay-c
+{
+    font: normal 12px Helvetica;
+    color: #ffffff;
+    background-color: #010101;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#010101),to(#333));
+    background-image: -moz-linear-gradient(bottom,#333,#010101);
+    padding: 0;
+    margin: 0;
+    -webkit-text-size-adjust: none;
+    text-shadow: none;
+}
+h2 {
+    margin-left: 10px;   
+}
+.adminOnly {
+    display: none;
+}
+.ui-content {
+    padding: 0;
+}
+.ui-bar-a {
+    background-color: #010101;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#010101),to(#333));
+    background-image: -moz-linear-gradient(bottom,#333,#010101);
+}
+.homepage .ui-li-has-arrow 
+{
+    
+}
+.ui-li-has-arrow {
+    background: url(images/series-status-bgrd.gif) repeat;
+    color: #ffffff;
+    text-shadow: none;
+}
+.ui-btn-up-c .ui-btn-text a.ui-link-inherit {
+    color: #ffffff;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+}
+.ui-btn-hover-c .ui-btn-text a.ui-link-inherit {
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+}
+p .ui-btn {
+    background-color: #6b6b6b;
+    color: #fff;
+    text-shadow: 0px 1px 0px #666;
+    font-size: 14px;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#6b6b6b),to(#000000));
+    background-image: -moz-linear-gradient(bottom,#000000,#6b6b6b);
+    border: 1px solid #000;
+}
+.ui-btn-up-c a.ui-link-inherit, .ui-btn-hover-c a.ui-link-inherit  {
+    color: #ffffff;
+}
+
+.ui-btn-down-c {
+    background: url(images/series-status-bgrd-homepage.gif) repeat;
+}
+.ui-header a:hover {
+   color: #333;
+    text-decoration: none;
+    
+}
+.ui-li-divider {
+    background-color: #666;
+    background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0.55,#666),color-stop(0.45,#959595));
+    background-image: -moz-linear-gradient(bottom,#666 55%,#959595 45%);
+    color: #fff;
+    border: 0;
+    border-radius: 0;
+    font: bold 14px Helvetica;
+}
+.ui-li {
+    border-color: #333333;   
+}
+.editor-label span {
+    font-size: 19px;
+    line-height: 35px;
+    padding-left: 10px; 
+} 
+.ui-grid-a .ui-block-a {
+    width: 30%;   
+}
+.ui-grid-a .ui-block-b {
+    width: 70%;   
+}
+.ui-header
+{
+    background: url(images/toolbar.png) repeat-x;
+}
+.ui-header .ui-title, .ui-footer .ui-title
+{
+    margin: 0.2em 0 0.2em 100px;
+    text-align: left;
+}
+.matchupLink {
+    padding: 0;
+    height: 40px;
+}
+.matchStatus {
+   background: url(images/score-box.png) no-repeat top center;
+   height: 27px;
+   display: block;
+   width: 100px;
+   margin: 0 auto;
+   font-size: 10px;
+   text-align: center;
+    line-height: 23px;
+}
+.canPlayers, .usaPlayers {
+    font-size: 10px;
+    background: url(images/canada.png) no-repeat center 5px;
+    padding-top: 30px;
+    text-align: center;
+    height: 20px;
+    display: block;
+}
+.usaPlayers 
+{
+    background: url(images/usa.png) no-repeat center 5px;
+}
+.usaTotal {
+    background: url(images/usa.png) no-repeat top left;
+    padding-left: 45px;
+    display: block;
+    float: left;
+    width: 50px;
+    height: 23px;
+    line-height: 23px;
+}
+.canTotal {
+    background: url(images/canada.png) no-repeat top left;
+    padding-left: 45px;
+    display: block;
+    float: left;
+    width: 50px;
+    height: 23px;
+    line-height: 23px;
+}
+.totalActiveGames {
+    font-size:10px; 
+    clear:both; 
+    display: block; 
+    width: 137px; 
+    text-align: center
+}
